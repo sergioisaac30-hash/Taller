@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 export default StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#245266",
+    backgroundColor: "#dff2fe",
     padding: 20,
   },
   loader: {
@@ -12,7 +12,7 @@ export default StyleSheet.create({
     alignItems: "center",
   },
   card: {
-    backgroundColor: "#fff",
+    backgroundColor: "#f0f9ff",
     padding: 15,
     marginBottom: 10,
     borderRadius: 8,
@@ -26,4 +26,9 @@ export default StyleSheet.create({
     fontSize: 16,
     color: "#333",
   },
+
+   boldText: {
+    fontWeight: 'bold',
+  },
 });
+

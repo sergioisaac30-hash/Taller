@@ -29,6 +29,7 @@ const GamingNewsScreen = () => {
       <Button
         title="Next News"
         onPress={() => setCurrentIndex((prev) => (prev + 1) % news.length)}
+        color="#8ec5ff"
       />
     </SafeAreaView>
   );

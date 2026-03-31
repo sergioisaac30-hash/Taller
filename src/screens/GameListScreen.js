@@ -28,7 +28,7 @@ const GameListScreen = ({ navigation }) => {
               onPress={() => navigation.navigate("GameDetail", { game: item })}
             >
               <Text style={styles.text}>
-                🎮 {item.title} - {item.platform} ({item.gender})
+                🎮 <Text style={styles.boldText}>{item.title}</Text> - {item.platform} ({item.gender})
               </Text>
             </TouchableOpacity>
           )}

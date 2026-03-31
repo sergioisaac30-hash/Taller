@@ -76,7 +76,7 @@ const AddGameScreen = () => {
         />
 
         <Button title="Add Game" onPress={handleAdd} disabled={!isValid} />
-        <Button title="Clear" onPress={handleClear} color="red" />
+        <Button title="Clear" onPress={handleClear} color="#8ec5ff" />
       </KeyboardAvoidingView>
     </SafeAreaView>
   );

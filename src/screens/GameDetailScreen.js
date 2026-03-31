@@ -21,8 +21,9 @@ const GameDetailScreen = ({ route, navigation }) => {
       <Button
         title={wishlist ? "REMOVE" : "ADD"}
         onPress={() => setWishlist(!wishlist)}
+        color="#8ec5ff"
       />
-      <Button title="BACK" onPress={() => navigation.goBack()} />
+      <Button title="BACK" onPress={() => navigation.goBack()} color="#cad5e2" />
     </SafeAreaView>
   );
 };
